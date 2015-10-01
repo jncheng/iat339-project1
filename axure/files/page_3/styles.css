@@ -1,0 +1,267 @@
+﻿body {
+  margin:0px;
+  background-image:none;
+  position:static;
+  left:auto;
+  width:1054px;
+  margin-left:0;
+  margin-right:0;
+  text-align:left;
+}
+#base {
+  position:absolute;
+  z-index:0;
+}
+#u0 {
+  position:absolute;
+  left:230px;
+  top:150px;
+  width:520px;
+  height:59px;
+  font-family:'Karla-Bold', 'Karla Bold', 'Karla';
+  font-weight:700;
+  font-style:normal;
+  font-size:50px;
+}
+#u0_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:520px;
+  height:59px;
+}
+#u1 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:520px;
+  white-space:nowrap;
+}
+#u2 {
+  position:absolute;
+  left:230px;
+  top:254px;
+  width:320px;
+  height:36px;
+  font-family:'Karla-Regular', 'Karla';
+  font-weight:400;
+  font-style:normal;
+  font-size:30px;
+}
+#u2_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:320px;
+  height:36px;
+}
+#u3 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:320px;
+  white-space:nowrap;
+}
+#u4 {
+  position:absolute;
+  left:230px;
+  top:314px;
+  width:235px;
+  height:26px;
+  font-family:'Karla-Regular', 'Karla';
+  font-weight:400;
+  font-style:normal;
+  font-size:22px;
+}
+#u4_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:235px;
+  height:26px;
+}
+#u5 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:235px;
+  white-space:nowrap;
+}
+#u6 {
+  position:absolute;
+  left:230px;
+  top:453px;
+  width:144px;
+  height:17px;
+  font-family:'Karla-Bold', 'Karla Bold', 'Karla';
+  font-weight:700;
+  font-style:normal;
+  font-size:14px;
+  color:#000000;
+}
+#u6_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:144px;
+  height:17px;
+}
+#u7 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:144px;
+  white-space:nowrap;
+}
+#u8 {
+  position:absolute;
+  left:230px;
+  top:493px;
+  width:300px;
+  height:17px;
+  font-family:'Karla-Regular', 'Karla';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+}
+#u8_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:300px;
+  height:17px;
+}
+#u9 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:300px;
+  white-space:nowrap;
+}
+#u10 {
+  position:absolute;
+  left:230px;
+  top:563px;
+  width:302px;
+  height:14px;
+  font-family:'Karla-Regular', 'Karla';
+  font-weight:400;
+  font-style:normal;
+  font-size:12px;
+  color:#1E1E1E;
+}
+#u10_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:302px;
+  height:14px;
+}
+#u11 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:302px;
+  white-space:nowrap;
+}
+#u12 {
+  position:absolute;
+  left:230px;
+  top:524px;
+  width:164px;
+  height:14px;
+  font-family:'Karla-Regular', 'Karla';
+  font-weight:400;
+  font-style:normal;
+  font-size:12px;
+  color:#000000;
+}
+#u12_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:164px;
+  height:14px;
+}
+#u13 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:164px;
+  white-space:nowrap;
+}
+#u14 {
+  position:absolute;
+  left:600px;
+  top:359px;
+  width:454px;
+  height:98px;
+  font-family:'Karla-Regular', 'Karla';
+  font-weight:400;
+  font-style:normal;
+  font-size:12px;
+}
+#u14_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:454px;
+  height:98px;
+}
+#u15 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:454px;
+  word-wrap:break-word;
+}
+#u16 {
+  position:absolute;
+  left:230px;
+  top:372px;
+  width:187px;
+  height:22px;
+  font-family:'Karla-Regular', 'Karla';
+  font-weight:400;
+  font-style:normal;
+  font-size:18px;
+}
+#u16_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:187px;
+  height:22px;
+}
+#u17 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:187px;
+  white-space:nowrap;
+}
+#u18 {
+  position:absolute;
+  left:230px;
+  top:409px;
+  width:260px;
+  height:14px;
+  font-family:'Karla-Bold', 'Karla Bold', 'Karla';
+  font-weight:700;
+  font-style:normal;
+  font-size:12px;
+}
+#u18_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:260px;
+  height:14px;
+}
+#u19 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:260px;
+  white-space:nowrap;
+}
