@@ -102,20 +102,21 @@ input[type=submit]{
   font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 1px;
-  background-color: white;
-  color:#1e1e1e;
+  background-color: #00b1b0;
+  color:white;
   width: 100px;
   height:30px;
   border:none;
   text-decoration: none;
-  border: 1px solid #1e1e1e;
-  padding-bottom: 3px;
+/*  border: 1px solid #1e1e1e;
+*/  padding-bottom: 3px;
   line-height: 8px;
 }
 
 input[type=submit]:hover,input[type=submit]:focus{
   outline:0;
-  background-color: black;
+  background-color: #007171;
+  border: none;
   color:white;
    -webkit-transition: background-color .2s ease-out;
   transition: background-color .2s ease-out;
@@ -143,8 +144,9 @@ input[type=text]{
 }
 
 button:hover, button:focus,.button-nav:hover, .button-nav:focus, a:hover, a:focus {
-  color: #a8b4b7;
+  color: #00b1b0;
   border-color: #a8b4b7;
+  text-decoration: none;
 }
 
 
@@ -196,13 +198,13 @@ button, a{
   text-transform: uppercase;
   letter-spacing: 1px;
   background-color: white;
-  color:#1e1e1e;
+  color:black;
   width: 100px;
   height:30px;
   border:none;
   text-decoration: none;
-  border-bottom: 1px solid #1e1e1e;
-  padding-bottom: 3px;
+/*  border-bottom: 1px solid #1e1e1e;
+*/  padding-bottom: 3px;
   line-height: 8px;
 }
 
