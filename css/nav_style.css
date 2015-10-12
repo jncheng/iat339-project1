@@ -1,0 +1,102 @@
+/* Body css is just to get font and set base font size*/
+body{
+  font-family: "Karla", Arial, sans-serif;
+  color:black;
+  margin: 0px;
+  padding: 0px;
+  font-size: 0.8em;
+}
+
+/* Button and hyperlink css <a> to set font to black when not clicked */
+
+button, a{
+  color:black;
+  border:none;
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Navigation bar css*/
+
+
+/* Filler bar initial width*/
+#nav_filler{
+  width: 58.5%
+}
+
+/* Dont do anything when hovered over*/
+#nav_filler:hover{
+  background-color: #00b1b0;
+}
+
+/* Nav bar positioning and style*/
+.nav{
+  text-transform: uppercase;
+  font-size: 0.8em;
+  display: inline-block;
+  padding: 0.5rem 0rem;
+  position: relative;
+  background-color: #00b1b0;
+  margin: 0px;
+  width: 10%;
+  text-align: center;
+}
+
+/* Go white when hovered*/
+.nav:hover{
+  background-color: white;
+}
+
+/* Box that buttons are in, fixed so it floats, removed padding/margin */
+nav {
+  margin: 0px;
+  background-color: #00b1b0;
+  position: fixed;
+  width: 100%;
+  padding: 0px;
+
+/*  margin-bottom: 1em;
+  padding-bottom: 1em;*/
+/*  float: inline-block;
+*/
+}
+
+/* Media queries for resizing. Worry about this later when we make the pages (I forgot the word, I think it starts with "R"?*/
+
+
+/* If width is less then 50em (800px) change sizes*/
+@media(max-width: 50em){
+  #nav_filler{
+
+    width:19%;
+  }
+  .nav{
+    width: 19%;
+  }
+}
+
+/* If width is less then 26em (416px) change sizes*/
+@media(max-width: 26em){
+
+  #nav_filler{
+    width: 0%;
+  }
+    .nav{
+    width: 24%;
+  }
+}
+
+/* If width is less then 20em (300ish px) change sizes*/
+@media(max-width: 20em){
+
+  #nav_filler{
+    width: 0%;
+    margin: -1em -1em -1em 0.7em ;
+  }
+    .nav{
+    width: 100%;
+    border-bottom: 1px solid #fff;
+  }
+
+}
