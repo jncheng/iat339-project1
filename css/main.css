@@ -3,6 +3,8 @@
   Default styling for the style guide 
 */
 
+/*Fonts*/
+
 body{
   font-family: "Karla", Arial, sans-serif;
   color:black;
@@ -10,6 +12,84 @@ body{
   padding: 0px;
 }
 
+h1{
+  font-size: 3.125em;  
+  font-weight: bold;
+}
+
+h2{
+  font-size:1.875em;
+  font-weight: normal;
+}
+
+h3{
+  font-size:1.375em;
+  /*letter-spacing: 0.2em;*/
+}
+
+h4{
+  font-size: 1.12em;
+}
+
+h5{
+  font-size: 12px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  color:black;
+  text-transform: uppercase;
+  margin-top:3em;
+}
+
+p{
+  font-size: 0.875em;
+  color:#333333;
+}
+
+/*Nav*/
+/*
+nav a:hover, nav a:focus {
+  text-decoration: none;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  height:45px;
+  background-color: #00b1b0;
+}
+
+nav ul{
+  margin: 0px;
+  padding: 0px;
+
+}
+
+nav ul li{    
+  margin-right:20px;
+  top:0;
+  float:right;
+  height:45px;
+  color:white;
+  background-color:#00b1b0;
+  text-align: center;
+  border-bottom: none;
+
+}
+
+nav li:hover, nav li:focus{
+  color:#007171;
+}
+
+.nav>li>a{
+  display: block;
+  height:100%;
+  top:-50%;
+  padding-top: 20%;
+}*/
+
+
+
+/*Sections*/
 section:not([id]) {
   margin: 1em 0;
   padding: 4em 0em ;
@@ -29,46 +109,12 @@ section p {
   margin-top: 0;
 }
 
+
+
 #combined_elements h1{
   margin-top:4em;
 }
 
-nav {
-  margin-bottom: 1em;
-  padding-bottom: 1em;
-}
-
-.sub-nav ul li{
-  line-height: 2em;
-}
-
-nav a:hover, nav a:focus {
-  text-decoration: none;
-}
-
-
-.main-nav {
-  position: fixed;
-  width: 100%;
-  height:45px;
-  background-color: #00b1b0;
-}
-
-
-ul.nav li a {    
-  margin-right:20px;
-  float:right;
-  height:100%;
-  color:white;
-  background-color:#00b1b0;
-  text-align: center;
-  border-bottom: none;
-  /*line-height:45px;*/
-}
-
-ul.nav li a:hover, ul.nav li a:focus{
-  color:#007171;
-}
 
 section code {
   background-color: #EEE;
@@ -139,10 +185,7 @@ input[type=text]{
 }
 
 /* Styling for the navigation */
-
-
-
-.button-nav {
+/*.button-nav {
   display: inline-block;
   color: black;
   width: auto;
@@ -150,8 +193,8 @@ input[type=text]{
   -webkit-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out;
 }
-
-button:hover, button:focus,.button-nav:hover, .button-nav:focus, a:hover, a:focus {
+*/
+button:hover, button:focus, a:hover, a:focus {
   color: #00b1b0;
   border-color: #a8b4b7;
   text-decoration: none;
@@ -159,42 +202,7 @@ button:hover, button:focus,.button-nav:hover, .button-nav:focus, a:hover, a:focu
 
 
 
-/* 
-  TEXT ELEMENTS -------------------
-*/
 
-h1{
-  font-size: 3.125em;  
-  font-weight: bold;
-}
-
-h2{
-  font-size:1.875em;
-  font-weight: normal;
-}
-
-h3{
-  font-size:1.375em;
-  /*letter-spacing: 0.2em;*/
-}
-
-h4{
-  font-size: 1.12em;
-}
-
-h5{
-  font-size: 12px;
-  letter-spacing: 1px;
-  font-weight: 700;
-  color:black;
-  text-transform: uppercase;
-  margin-top:3em;
-}
-
-p{
-  font-size: 0.875em;
-  color:#333333;
-}
 
 .qoute{
   font-size:12px;
@@ -217,8 +225,8 @@ button, a{
 }
 
 img{
-  width:50%;
-  height: auto;
+  width: 100%;
+   height: auto;
 }
 
 .light-grey{
@@ -243,3 +251,22 @@ img{
   height: auto;
 }
 
+/*Home page*/
+.featured-product{
+  width: 40%;
+}
+
+.featured-product figurecaption{
+  padding:1em;
+  position: absolute;
+  top: 30%;
+
+}
+
+.float-right{
+  float: right;
+}
+
+.float-left{
+  float: left;
+}
