@@ -50,6 +50,7 @@ button, a{
 
 /* Box that buttons are in, fixed so it floats, removed padding/margin */
 nav {
+  z-index: 10;
   margin: 0px;
   background-color: #00b1b0;
   position: fixed;
