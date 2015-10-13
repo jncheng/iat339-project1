@@ -10,11 +10,19 @@ body{
 /* Button and hyperlink css <a> to set font to black when not clicked */
 
 button, a{
-  color:black;
+  color: black;
   border:none;
   text-decoration: none;
   margin: 0px;
   padding: 0px;
+  
+}
+#nav_button{
+  color: #b5e3d8
+}
+#nav_button:hover{
+  color: #b5e3d8;
+
 }
 
 /* Navigation bar css*/
@@ -27,6 +35,7 @@ button, a{
 
 /* Dont do anything when hovered over*/
 #nav_filler:hover{
+  color: black;
   background-color: #00b1b0;
 }
 
@@ -45,8 +54,10 @@ button, a{
 
 /* Go white when hovered*/
 .nav:hover{
-  background-color: white;
-}
+  background-color: #008A89;
+  color: #b5e3d8;
+/*  opacity: 0.4;
+*/}
 
 /* Box that buttons are in, fixed so it floats, removed padding/margin */
 nav {
