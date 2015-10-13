@@ -176,6 +176,20 @@ div{
   transition: background-color 0.5s ease-out;
 }
 */
+.main-button{
+  width: 10em;
+  height: 2.7em;
+  background-color: #00b1b0;
+  color:white;
+  outline: none;
+}
+
+.main-button:hover, .main-button:focus{
+  background-color: black;
+  color:white;
+
+} 
+
 button:hover, button:focus, a:hover, a:focus {
   color: #00b1b0;
   border-color: #a8b4b7;
@@ -335,4 +349,12 @@ img{
 
 .product-tile{
   border-bottom: 1px black solid;
+}
+
+
+/*Blog page*/
+.blog-post{
+  position: relative;
+  top:5em;
+  padding: 0 10em;
 }
