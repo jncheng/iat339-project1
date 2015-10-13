@@ -281,8 +281,23 @@ img{
 }
 
 /*Home page*/
+
+.intro{
+  position: relative;
+  top:5em;
+  left:5em;
+  text-align: left;
+}
+
+.feature-product-row{
+  width: 100%;
+  display: inline-block;
+}
+
 .featured-product{
-  width: 40%;
+  width: 50%;
+  position: relative;
+  top:5em;
 }
 
 .featured-product figurecaption{
@@ -290,6 +305,14 @@ img{
   position: absolute;
   top: 30%;
 
+}
+
+.align-right{
+  text-align: right;
+}
+
+.align-left{
+  text-align: left;
 }
 
 .float-right{
@@ -300,3 +323,16 @@ img{
   float: left;
 }
 
+/*Product page*/
+.product-cover{
+  
+}
+
+.product-row{
+  position: relative;
+  top:5em;
+}
+
+.product-tile{
+  border-bottom: 1px black solid;
+}

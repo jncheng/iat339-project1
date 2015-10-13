@@ -55,6 +55,13 @@
   }
 }
 
+
+.grid-row:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
 .col-2-3 {
   width: 66.66%;
 }
@@ -83,6 +90,15 @@
 [class*='col-']:last-of-type {
   padding-right: 0;
 }
+
+.grid-pad {
+  padding: 20px 0 20px 20px;
+}
+
+.grid-pad > [class*='col-']:last-of-type {
+  padding-right: 20px;
+}
+
 
 @media(min-width: 30em){
 
