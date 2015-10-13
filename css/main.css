@@ -83,6 +83,7 @@ div{
   margin: auto;
   top: 5em;
   padding: 0px;
+  margin-bottom: 20%; 
 }
 
 .phone_info{
@@ -100,10 +101,12 @@ div{
 }
 
 .title{
-  width: 68%;
+  text-align: left;
+  padding-left: 3.4%;
+  width: 64.6%;
   position: relative;
   display: inline-block;
-    border-left: 0.1em solid black;
+  border-left: 0.1em solid black;
 
 }
 
@@ -214,7 +217,7 @@ button:hover, button:focus, a:hover, a:focus {
   width: 30%;
   position: relative;
   display: inline-block;
-  color: white;
+  color: black;
 }
 
 .send{
@@ -235,6 +238,16 @@ button:hover, button:focus, a:hover, a:focus {
   background-color: #bebebe;
 
 }
+
+.contact_us{
+  width: 90%;
+  border: none;
+
+}
+.contact_us:focus{
+  outline: none;
+}
+
 
 img{
   width: 100%;
