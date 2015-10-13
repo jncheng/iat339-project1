@@ -88,6 +88,7 @@ div{
 .header{
   position: absolute;
   left: 4em;
+  text-align: left
 }
 
 .light-grey{
@@ -373,13 +374,13 @@ img{
 .intro{
   position: relative;
   top:5em;
-  left:5em;
+  /*left:5em;*/
   text-align: left;
 }
 
 .feature-product-row{
-  width: 100%;
-  display: inline-block;
+  /*width: 100%;*/
+  /*display: inline-block;*/
 }
 
 .featured-product{
@@ -431,4 +432,15 @@ img{
   position: relative;
   top:5em;
   padding: 0 10em;
+}
+/*Footer*/
+footer{
+  display: block;
+  position: relative;
+  top:5em;
+  width: 100%;
+  background-color: #00b1b0;
+  color:#b5e3d8;
+  text-align: center;
+  padding:1em;
 }
