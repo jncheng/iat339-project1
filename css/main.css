@@ -275,6 +275,7 @@ img{
   padding: 0px;
 }
 
+
 .product_image{
   left:0px;
   position: absolute;
@@ -426,6 +427,11 @@ img{
   border-bottom: 1px black solid;
 }
 
+.product-tile img:hover{
+  opacity: 0.9;
+  filter: alpha(opacity=90); /* For IE8 and earlier */
+
+}
 
 /*Blog page*/
 .blog-post{
