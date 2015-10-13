@@ -85,6 +85,10 @@ div{
   text-align: center;
 }
 
+.header{
+  position: absolute;
+  left: 4em;
+}
 
 .light-grey{
   color:#BDBDBD !important;
