@@ -27,10 +27,23 @@ button, a{
 
 /* Navigation bar css*/
 
+.logo{
+  float:left;
+  width: 3.5em;
+  position: relative;
+  left:5em;
+  padding-top:1em;
+  z-index: 11;
+}
+
+.logo:hover{
+  opacity: 0.6;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
 
 /* Filler bar initial width*/
 #nav_filler{
-  width: 58.5%
+  width: 48%;
 }
 
 /* Dont do anything when hovered over*/
