@@ -21,6 +21,8 @@ h1{
 h2{
   font-size:1.875em;
   font-weight: normal;
+  padding: 0px;
+  margin: 0px;
 }
 
 h3{
@@ -41,31 +43,10 @@ h5{
   margin-top:3em;
 }
 
-/*p{
-  font-size: 0.875em;
-  color:#333333;
-}*/
-
-/*Sections*/
-section:not([id]) {
-  margin: 1em 0;
-  padding: 4em 0em ;
-  /*border-bottom: 0.15em solid #333;*/
+footer{
+  position: absolute;
+  bottom: 0px;
 }
-
-section h2 {
-  margin-top: 0;
-  margin-bottom: 0.5em;
-}
-
-section h3 {
-  margin-bottom: 0;
-}
-
-section p {
-  margin-top: 0;
-}
-
 
 
 #combined_elements h1{
@@ -267,8 +248,8 @@ img{
 /* Product page css */
 .product_page{
   position: relative;
-  border: 1px solid black;
-  width: 60em;
+/*  border: 1px solid black;
+*/  width: 60em;
   height: 60em;
   margin: auto;
   top: 5em;
@@ -368,6 +349,58 @@ img{
   border: 0.1em solid black;
   width: 10em;
   height:10em;
+}
+
+/* -------------- About Page --------------- */
+
+.about_page{
+  position: relative;
+/*  border: 1px solid black;
+*/  width: 60em;
+  height: 40em;
+  margin: auto;
+  top: 5em;
+  padding: 0px;
+}
+
+.about_content{
+  padding: 1em 2em;
+  font-size: 1rem; 
+  line-height: 1.5em;
+}
+
+.about_image{
+  position: absolute;
+  height: 15em;
+  width: 15em;
+  top: 4em;
+
+
+  border: 1px solid black;
+}
+.about_moral1, .about_moral2, .about_moral3{
+  position: absolute;
+  height: 19em;
+  width: 15em;
+  top: 18em;
+}
+.about_moral1{
+
+  left: 4em;
+
+/*  border: 1px solid black;
+*/}
+.about_moral2{
+
+  left: 22em;
+
+  /*border: 1px solid black;*/
+}
+.about_moral3{
+
+  left: 40em;
+
+  /*border: 1px solid black;*/
 }
 
 /*Home page*/
