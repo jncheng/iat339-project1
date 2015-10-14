@@ -82,7 +82,7 @@ textarea {
 
 .contact_form{
   position: relative;
-  border: 1px solid black;
+  border: 1px solid #00b1b0;
   width: 60em;
   margin: auto;
   top: 5em;
@@ -94,7 +94,7 @@ textarea {
   width: 100%;
   position: relative;
   display: inline-block;
-  border-bottom: 0.1em solid black;
+  border-bottom: 0.1em solid #00b1b0;
 
 }
 
@@ -110,7 +110,7 @@ textarea {
   width: 64.6%;
   position: relative;
   display: inline-block;
-  border-left: 0.1em solid black;
+  border-left: 0.1em solid #00b1b0;
 
 }
 
@@ -118,12 +118,12 @@ textarea {
   width: 100%;
   position: relative;
   display: inline-block;
-  border-bottom: 0.1em solid black;
+  border-bottom: 0.1em solid #00b1b0;
 
 }
 
 .row1{
-  border-bottom: 0.1em solid black;
+  border-bottom: 0.1em solid #00b1b0;
   position: absolute;
   right: 0px;
   width: 68.9%;
@@ -141,7 +141,7 @@ textarea {
   width: 68%;
   position: relative;
   display: inline-block;
-  border-left: 0.1em solid black;
+  border-left: 0.1em solid #00b1b0;
 /*  border-bottom: 0.1em solid black;
 */
 
@@ -156,7 +156,7 @@ textarea {
   width: 68%;
   position: relative;
   display: inline-block;
-  border-left: 0.1em solid black;
+  border-left: 0.1em solid #00b1b0;
 }
 
 /* Styling for the navigation */
@@ -211,7 +211,7 @@ button:hover, button:focus, a:hover, a:focus {
   width: 68.7%;
   position: absolute;
   display: inline-block;
-  border-left: 0.1em solid black;
+  border-left: 0.1em solid #00b1b0;
 /*  border-bottom: 0.1em solid black;
 */
 
@@ -233,15 +233,20 @@ button:hover, button:focus, a:hover, a:focus {
   
 }
 .row2{
-  border-top: 0.1em solid black;
+  border-top: 0.1em solid #00b1b0;
   position: absolute;
   top: 11.05em;
   right: 0px;
   width: 68.8%;
   height: 3.1em;
-  border-left: 0.1em solid black;
-  background-color: #bebebe;
+  border-left: 0.1em solid #00b1b0;
+  /*background-color: #bebebe;*/
+  background-color: #00b1b0;
 
+}
+
+.row2 a{
+  color:white;
 }
 
 #contact_message{
@@ -264,7 +269,8 @@ img{
 }
 
 .row2:hover {
-  background-color: #00b1b0;
+  background-color: #008A89;
+  
 }
 
 /* ----------------- Product page css ----------------- */
