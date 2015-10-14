@@ -66,6 +66,10 @@ div{
   text-align: center;
 }
 
+textarea {
+    resize: none;
+}
+
 .header{
   position: absolute;
   left: 4em;
@@ -196,16 +200,16 @@ button:hover, button:focus, a:hover, a:focus {
 
 .address{
 
-
+  height: 14.25em;
   width: 30%;
   position: relative;
   display: inline-block;
 /*  border-bottom: 0.1em solid white;
 */}
 .message{
-
-  width: 68%;
-  position: relative;
+  right: 0px;
+  width: 68.7%;
+  position: absolute;
   display: inline-block;
   border-left: 0.1em solid black;
 /*  border-bottom: 0.1em solid black;
@@ -214,8 +218,9 @@ button:hover, button:focus, a:hover, a:focus {
 }
 .address_filler{
   left: 0px;
+  top: 3.1em;
   width: 30%;
-  position: relative;
+  position: absolute;
   display: inline-block;
   color: black;
 }
@@ -230,13 +235,17 @@ button:hover, button:focus, a:hover, a:focus {
 .row2{
   border-top: 0.1em solid black;
   position: absolute;
-  top: 3.1em;
+  top: 11.05em;
   right: 0px;
   width: 68.8%;
   height: 3.1em;
   border-left: 0.1em solid black;
   background-color: #bebebe;
 
+}
+
+#contact_message{
+  height: 10em;
 }
 
 .contact_us{
@@ -258,7 +267,7 @@ img{
   background-color: #00b1b0;
 }
 
-/* Product page css */
+/* ----------------- Product page css ----------------- */
 .product_page{
   position: relative;
 /*  border: 1px solid black;
@@ -292,6 +301,20 @@ img{
   border: 0.1em solid black;
 
 
+}
+
+.details_title{
+
+}
+
+.product_info, .product_price{
+  border-bottom: 0.1em solid #d0d0d0;
+  height: 29.8%;
+}
+
+
+.product_thumb1, .product_thumb2, .product_thumb3, .product_thumb4, .product_image{
+  background-image: url("../img/featured-product-1.jpg");
 }
 
 .product_thumb1{
@@ -359,9 +382,29 @@ img{
   position: absolute;
   display: inline-block;
   margin: 1em;
-  border: 0.1em solid black;
-  width: 10em;
+/*  border: 0.1em solid black;
+*/  width: 10em;
   height:10em;
+}
+
+
+.poster_name{
+  text-align: left;
+  padding-left: 1em;
+}
+
+.star_rating{
+  border: 0.1em solid black;
+  margin: 1em;
+}
+
+.product_review{
+  text-align: left;
+  padding-left: 1em;
+  position: absolute;
+  top: 1em;
+  right: 1em;
+  width: 26em;
 }
 
 /* -------------- About Page --------------- */
