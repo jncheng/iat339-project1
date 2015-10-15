@@ -41,21 +41,7 @@
   margin-right: auto;
   margin-left: auto;
 }
-@media (min-width: 768px) {
-  .container {
-    width: 750px;
-  }
-}
-@media (min-width: 992px) {
-  .container {
-    width: 970px;
-  }
-}
-@media (min-width: 1200px) {
-  .container {
-    width: 1170px;
-  }
-}
+
 
 
 .grid-row:after {
@@ -105,35 +91,41 @@
 
 
 
+/* If width is less then 50em (800px) change sizes*/
 @media(max-width: 50em){
-	#nav_filler{
+  #nav_filler{
 
-		width:19%;
-	}
-	.nav{
-		width: 19%;
-	}
+    width:10%;
+  }
+  .nav{
+    width: 19%;
+  }
 }
 
-@media(max-width: 26em){
+/* If width is less then 26em (416px) change sizes*/
+@media(max-width: 410px){
 
-	#nav_filler{
-		width: 0%;
-	}
-		.nav{
-		width: 24%;
-	}
+  #nav_filler{
+    width: 0%;
+    margin: -1em -1em -1em 0.7em ;
+
+  }
+    .nav{
+    width: 24%;
+  }
 }
 
+/* If width is less then 20em (300ish px) change sizes*/
 @media(max-width: 20em){
 
-	#nav_filler{
-		width: 0%;
-		margin: -1em -1em -1em 0.7em ;
-	}
-		.nav{
-		width: 100%;
-		border-bottom: 1px solid #fff;
-	}
+  #nav_filler{
+    width: 0%;
+        margin: -1em -1em -1em 0.7em ;
+
+  }
+    .nav{
+    width: 100%;
+    border-bottom: 1px solid #fff;
+  }
 
 }
