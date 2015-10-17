@@ -80,6 +80,10 @@ textarea {
   color:#BDBDBD !important;
 }
 
+.white{
+  color:white !important;
+}
+
 .contact_form{
   position: relative;
   border: 1px solid #00b1b0;
@@ -510,7 +514,17 @@ img{
 
 /*Product page*/
 .product-cover{
-  
+  position: relative;
+  background-image: url("../img/product-cover.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height:9em;
+  padding-top: 8em;
+  padding-bottom:18em;
+
 }
 
 .product-row{
@@ -526,6 +540,10 @@ img{
   opacity: 0.9;
   filter: alpha(opacity=90); /* For IE8 and earlier */
 
+}
+
+.product-tile p, .product-tile h4{
+  padding:0 20px;
 }
 
 /*Blog page*/
@@ -544,4 +562,12 @@ footer{
   color:#b5e3d8;
   text-align: center;
   padding:1em;
+  margin-top: 5em;
+}
+
+/*Fit image to container*/
+.cover {
+  object-fit: cover;
+  width: 30em;
+  height: 20em;
 }
