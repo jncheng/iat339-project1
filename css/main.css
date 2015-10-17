@@ -423,28 +423,41 @@ img{
 
 .about_page{
   position: relative;
-/*  border: 1px solid black;
-*/  width: 60em;
+  width: 60em;
   height: 40em;
   margin: auto;
   top: 5em;
   padding: 0px;
+  display: block;
+  padding-bottom: 50em;
+}
+
+.about-cover{
+  position: relative;
+  background-image: url("../img/about-cover.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height:9em;
+  padding-top: 8em;
+  padding-bottom:18em;
 }
 
 .about_content{
-  padding: 1em 2em;
+  padding: 2em 2em;
   font-size: 1rem; 
   line-height: 1.5em;
+  border-bottom: 1px solid #b5e3d8;
 }
 
 .about_image{
   position: absolute;
+  padding: 2em;
   height: 15em;
   width: 15em;
   top: 4em;
-
-
-  border: 1px solid black;
 }
 .about_moral1, .about_moral2, .about_moral3{
   position: absolute;
@@ -470,6 +483,13 @@ img{
 
   /*border: 1px solid black;*/
 }
+
+.testimonial{
+  background-color: #F2F2F2;
+  height:20em;
+  padding:5em;
+}
+
 
 /*Home page*/
 
