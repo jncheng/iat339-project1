@@ -10,7 +10,7 @@ body{
   color:black;
   margin: 0px;
   padding: 0px;
-  font-size: 0.8em;
+  font-size: 0.9em !important;
 }
 
 h1{
@@ -522,7 +522,7 @@ img{
   border-bottom: 1px black solid;
 }
 
-.product-tile img:hover{
+.product-tile img:hover, .blog-post a img:hover{
   opacity: 0.9;
   filter: alpha(opacity=90); /* For IE8 and earlier */
 
