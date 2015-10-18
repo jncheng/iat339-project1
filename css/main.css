@@ -268,6 +268,22 @@ button:hover, button:focus, a:hover, a:focus {
   outline: none;
 }
 
+.cart_image{
+  position: absolute;
+  height: 9em;
+  width: 9em;
+  border: 1px solid black;
+}
+
+.cart_item{
+  position: absolute;
+  left: 15em;
+
+}
+
+.cart_price{
+  
+}
 
 img{
   width: 100%;
