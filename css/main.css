@@ -306,6 +306,46 @@ img{
   padding: 0px;
 }
 
+.product1, .product2, .product3{
+/*  padding-right: 1em;
+*/  width: 30%;
+  vertical-align: top;
+  position: relative;
+  display: inline-block;
+/*  border: 1px solid black;
+*/}
+
+.product_row1{
+  margin-top: 1em;
+}
+
+.product_list_image{
+  /*padding: 1em;*/
+  position: relative;
+  display: block;
+  padding: 0px;
+  margin: 0px;
+
+/*  overflow:hidden;
+  text-align: center;
+*/  /*width: 100%;*/
+
+}
+
+@media(max-width: 38em){
+  .product1, .product2, .product3{
+  padding-right: 1em;
+  width: 100%;
+  display: inline-block;
+  } 
+
+}
+
+.list_image{
+  max-width:100%;
+max-height:100%;
+}
+
 
 .product_image{
   left:0px;
