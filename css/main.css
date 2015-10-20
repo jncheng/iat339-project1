@@ -505,7 +505,7 @@ max-height:100%;
 }
 
 .about_content{
-  padding: 2em 2em;
+  padding: 1em 2em;
   font-size: 1rem; 
   line-height: 1.5em;
   border-bottom: 1px solid #b5e3d8;
@@ -518,6 +518,10 @@ max-height:100%;
   width: 15em;
   top: 4em;
 }
+
+.moral{
+}
+
 .about_moral1, .about_moral2, .about_moral3{
   position: absolute;
   height: 19em;
