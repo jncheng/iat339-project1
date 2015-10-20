@@ -23,8 +23,8 @@ h1{
 h2{
   font-size:1.875em;
   font-weight: normal;
-  padding: 0px;
-  margin: 0px;
+  padding: 1em;
+  margin: 1em;
 }
 
 h3{
@@ -286,8 +286,11 @@ button:hover, button:focus, a:hover, a:focus {
 }
 
 img{
-  width: 100%;
-   height: auto;
+  /*width: 100%;
+  height: auto;*/
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .row2:hover {
@@ -540,11 +543,25 @@ max-height:100%;
   /*border: 1px solid black;*/
 }
 
-.testimonial{
-  background-color: #F2F2F2;
+.about-discover{
+  /*background-color: #F2F2F2;
   height:20em;
-  padding:5em;
+  padding:5em;*/
+  position: relative;
+  background-image: url("../img/about-discover-more-products.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height:auto;
+  padding-right: 5em;
+  padding-left: 5em;
+  padding-top: 3em;
+  padding-bottom:6em;
 }
+
+
 
 
 /*Home page*/
@@ -659,7 +676,7 @@ footer{
   color:#b5e3d8;
   text-align: center;
   padding:1em;
-  margin-top: 5em;
+  margin-top: 2em;
 }
 
 /*Fit image to container*/
