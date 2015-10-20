@@ -87,9 +87,9 @@ textarea {
 }
 
 
-/*Contact Page*/
+/* --------------------- Contact Page --------------------- */
 .contact-cover{
-.position: relative;
+  position: relative;
   background-image: url("../img/contact-cover.jpeg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -97,6 +97,7 @@ textarea {
   background-size: cover;
   width: 100%;
   height:.8em;
+
   padding-top: 8em;
   padding-bottom:18em;
 }
@@ -104,7 +105,7 @@ textarea {
 .contact_form{
   position: relative;
   border: 1px solid #00b1b0;
-  width: 60em;
+  width: 80%;
   margin: auto;
   top: 5em;
   padding: 0px;
@@ -266,12 +267,80 @@ button:hover, button:focus, a:hover, a:focus {
 
 }
 
+@media(max-width: 50em){
+  .phone, .title, .email, .email_name, .email_filler, .email_phone, .address, .row2,  .message{
+    position: relative;
+    display: inline-block;
+    text-align: left;
+    padding-left: 1em;
+    width: 98%;
+    border: none;
+    border-bottom: 0.1em solid #00b1b0;
+    
+  } 
+  .row2{
+/*    margin-left: -1em;
+*/    top: 0px;
+    border: none;
+  }
+  .address_filler{
+  left: 0px;
+  top: 3.1em;
+  width: 30%;
+  position: absolute;
+  display: inline-block;
+  color: black;
+  }
+  .address_filler{
+    padding-left: 1em;
+    text-align: left;
+  }
+
+  .address{
+    height: 8em;
+  }
+
+  .email_filler{
+    height: 3.1em;
+  }
+
+  .message{
+    border: none;
+  }
+  .send_button{
+    margin: 0px;
+    padding: 0px;
+    border: none;
+  }
+  .phone_info{
+    border: none;
+  }
+  .contact_form{
+    padding: 0px;
+    width: 90%;
+    margin: 0em 1em 0em 1em; 
+  }
+
+  .about-contact{
+    position: relative;
+    margin-top: 7em;
+  }
+
+}
+/*@media(max-width: 50em){
+
+    width: 100%;
+    
+  } 
+
+}*/
+
 .row2 a{
   color:white;
 }
 
 #contact_message{
-  height: 10em;
+  height: 11em;
 }
 
 .contact_us{
@@ -350,18 +419,30 @@ img{
 
 }
 
-@media(max-width: 38em){
+@media(max-width: 45em){
   .product1, .product2, .product3{
-  padding-right: 1em;
-  width: 100%;
+  padding-right: 0em;
+  width: 48%;
   display: inline-block;
   } 
 
 }
+@media(max-width: 25em){
+  .product1, .product2, .product3{
+  padding:0px 1em 0em 1em;
+  width: 100%;
+  display: inline-block;
+  } 
 
+
+
+}
 .list_image{
-  max-width:100%;
-max-height:100%;
+  margin: 0px auto;
+  height:100%;
+  width: 100%;
+
+
 }
 
 
