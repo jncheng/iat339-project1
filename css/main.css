@@ -11,6 +11,7 @@ body{
   margin: 0px;
   padding: 0px;
   font-size: 0.9em !important;
+  text-align: center;
 }
 
 h1{
@@ -352,23 +353,6 @@ button:hover, button:focus, a:hover, a:focus {
   outline: none;
 }
 
-.cart_image{
-  position: absolute;
-  height: 9em;
-  width: 9em;
-  border: 1px solid black;
-}
-
-.cart_item{
-  position: absolute;
-  left: 15em;
-
-}
-
-.cart_price{
-  
-}
-
 img{
   /*width: 100%;
   height: auto;*/
@@ -384,6 +368,7 @@ img{
 
 /* ----------------- Product page css ----------------- */
 .product_page{
+  text-align: left;
   position: relative;
 
 /*  width: 60em;
@@ -396,6 +381,7 @@ img{
   padding: 0px;
 
 }
+
 
 .product1, .product2, .product3{
 /*  padding-right: 1em;
@@ -423,12 +409,19 @@ img{
 
 }
 
+
 @media(max-width: 45em){
   .product1, .product2, .product3{
   padding-right: 0em;
   width: 48%;
   display: inline-block;
   } 
+
+  .product_page{
+    width: 100%;
+    padding: 0px 1em;
+    margin-left: 0px;
+  }
 
 }
 @media(max-width: 25em){
@@ -557,12 +550,13 @@ img{
 }
 
 .product_review{
- /* text-align: left;
+  text-align: left;
   padding-left: 1em;
+/*  padding-left: 1em;
   position: absolute;
   top: 1em;
   right: 1em;
-  width: 26em*/;
+  width: 26em;*/
 }
 
 .product_rating, .product_rating .rating{
@@ -916,6 +910,94 @@ img{
     padding-bottom: 1em;
   }
 
+
+}
+
+/* ------------- Shopping cart -------------*/
+
+.cart_page{
+  text-align: center;
+  position: relative;
+  width: 70%;
+  height: 70vh;
+  margin: auto 0px;
+  top: 5em;
+  padding: 0px;
+  display: inline-block;
+    vertical-align: top;
+
+/*  padding-bottom: 10em;
+*/}
+
+.cart_header{
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.shopping_cart_image{
+/*  min-height: 100%;
+*/
+}
+
+
+.cart_image{
+  vertical-align: top;
+  position: relative;
+  display: inline-block;
+/*  height: 20%;
+*/  width: 20%;
+}
+
+.cart_item{
+  position: relative;
+  display: inline-block;
+  width: 50%;
+  padding-left: 2em;
+  margin-top: 2em;
+  text-align: left;
+}
+
+.cart_price{
+  text-align: left;
+  position: relative;
+  display: inline-block;
+  width: 20%;
+/*  margin-top: 4em;
+*//*  vertical-align: bottom;
+*/  
+}
+
+.cart_total_price{
+  text-align: right;
+  position: relative;
+  display: inline-block;
+  padding-left: 65%;
+}
+
+.price_total{
+/*  padding-top: 1em;
+*/}
+
+@media(max-width: 50em){
+  .cart_page{
+    width: 100%;
+  }
+  
+
+}
+@media(max-width: 50em){
+  .cart_page{
+    height: 100%;
+  }
+  .cart_image{
+    width: 60%;
+  }
+  .cart_item, .cart_price{
+    padding-left: 20%;
+    width: 100%;
+  }
+  
 
 }
 
