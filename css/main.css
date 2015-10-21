@@ -461,7 +461,7 @@ img{
   /*height:30em;*/
   margin-top: 1em;
   margin-right: 1em;
-  padding: 1em 1em;
+  padding: 1em 0em;
 }
 
 .details_title{
@@ -514,29 +514,6 @@ img{
   width: 100% !important;
 }
 
-.product_review1{
-  /*left:0px;
-  top: 40em;
-  position: absolute;
-  display: inline-block;
-  margin: 1em;
-  border: 0.1em solid black;
-  width: 40em;
-  height:12em;*/
-
-}
-
-
-.product_review_poster{
- /* left:0px;
-  position: absolute;
-  display: inline-block;
-  margin: 1em;*/
-/*  border: 0.1em solid black;
-*/  /*width: 10em;
-  height:10em;*/
-}
-
 
 .poster_name{
   text-align: left;
@@ -552,17 +529,35 @@ img{
 .product_review{
   text-align: left;
   padding-left: 1em;
-/*  padding-left: 1em;
-  position: absolute;
-  top: 1em;
-  right: 1em;
-  width: 26em;*/
+
+
+  margin-top: 5%;
+  text-align: left;
+  padding: 2% 5%;
+  border:1px solid #F0F0F0;
+  background-color: #FAFAFA;
 }
 
+.product_review h2{
+  border-bottom: 1px solid #d0d0d0;
+}
+
+.product_review .rating{
+  border: none;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+}
 .product_rating, .product_rating .rating{
   text-align: left;
-
 }
+
+.review-content{
+  text-align: left !important;
+  padding-bottom: 3%;
+  border-bottom: 1px solid #F0F0F0;
+}
+
 /*
   Ratings Stars
   (with as little code as possible)
@@ -919,12 +914,15 @@ img{
   text-align: center;
   position: relative;
   width: 70%;
-  height: 70vh;
+  height: 75vh;
   margin: auto 0px;
   top: 5em;
   padding: 0px;
   display: inline-block;
-    vertical-align: top;
+  vertical-align: top;
+  border:1px solid #F0F0F0;
+  background-color: #FAFAFA;
+
 
 /*  padding-bottom: 10em;
 */}
@@ -933,6 +931,9 @@ img{
   position: relative;
   display: inline-block;
   width: 100%;
+  border-bottom: 1px solid #d0d0d0;
+  margin-bottom: 2em;
+
 }
 
 .shopping_cart_image{
@@ -963,9 +964,6 @@ img{
   position: relative;
   display: inline-block;
   width: 20%;
-/*  margin-top: 4em;
-*//*  vertical-align: bottom;
-*/  
 }
 
 .cart_total_price{
@@ -973,11 +971,14 @@ img{
   position: relative;
   display: inline-block;
   padding-left: 65%;
+  
+
 }
 
 .price_total{
-/*  padding-top: 1em;
-*/}
+  padding-bottom: 2em;
+  border-top: 1px solid #d0d0d0;
+}
 
 @media(max-width: 50em){
   .cart_page{
