@@ -52,7 +52,7 @@ footer{
 
 
 #combined_elements h1{
-  margin-top:4em;
+  margin-top: 4em;
 }
 
 
@@ -578,13 +578,13 @@ img{
 
 .about_page{
   position: relative;
-  width: 60em;
-  height: 40em;
-  margin: auto;
+  width: 70%;
+/*  height: 40em;
+*/  margin: auto 0px;
   top: 5em;
   padding: 0px;
-  display: block;
-  padding-bottom: 50em;
+  display: inline-block;
+  padding-bottom: 10em;
 }
 
 .about-cover{
@@ -601,6 +601,7 @@ img{
 }
 
 .about_content{
+  position: relative;
   padding: 1em 2em;
   font-size: 1rem; 
   line-height: 1.5em;
@@ -608,45 +609,51 @@ img{
 }
 
 .about_image{
-  position: absolute;
-  padding: 2em;
-  height: 15em;
-  width: 15em;
+  position: relative;
+  display: inline;
+/*  height: 15em;
+  width: 15em;*/
   top: 4em;
 }
 
 .moral{
+  width: 100%;
 }
 
 .about_moral1, .about_moral2, .about_moral3{
-  position: absolute;
-  height: 19em;
-  width: 15em;
-  top: 18em;
-}
-.about_moral1{
-
-  left: 4em;
-
-/*  border: 1px solid black;
+  position: relative;
+  display: inline-block;
+  width: 25%;
+  padding: 0px;
+  margin: 3%;
+  vertical-align: top;
+/*  top: 18em;
 */}
-.about_moral2{
 
-  left: 22em;
+@media(max-width: 48em){
+  .about_page{
+    width: 100%;
+  }
 
-  /*border: 1px solid black;*/
+
 }
-.about_moral3{
+@media(max-width: 23em){
+  .about_moral1, .about_moral2, .about_moral3{
+    width: 100%;
+    display: block;
+    padding-bottom: 3em;
 
-  left: 40em;
+  }
 
-  /*border: 1px solid black;*/
+
 }
+
 
 .about-discover{
   /*background-color: #F2F2F2;
   height:20em;
   padding:5em;*/
+
   position: relative;
   background-image: url("../img/about-discover-more-products.jpg");
   -webkit-background-size: cover;
@@ -801,10 +808,14 @@ img{
 
 /*Blog page*/
 .blog-post{
+  text-align: left;
   position: relative;
   top:5em;
-  padding: 0 10em;
-}
+  width: 66%;
+  margin: 0px auto;
+  padding: 0px;
+
+  }
 
 .blog-cover{
   position: relative;
@@ -824,6 +835,34 @@ img{
   width: 22em;
   height: 18em;
 }
+
+.blog_image{
+
+  width: 35%;
+  position: relative;
+  display: inline-block;
+  left: 0px;
+  padding: 0px;
+
+}
+.blog_title{
+  top: 0px;
+  width: 60% ;
+  position: relative;
+  display: inline-block;
+  padding: 0px;
+  padding-left: 2em;
+
+}
+
+.blog_text{
+  width: 100%;
+  position: relative;
+  display: inline-block;
+
+}
+
+
 /*Footer*/
 footer{
   display: block;
