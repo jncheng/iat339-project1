@@ -1002,6 +1002,15 @@ img{
 
 }
 
+.gohome{
+  width: 10%;
+  margin: auto;
+  background-color: #00b1b0;
+}
+
+.gohome:hover, .gohome:active{
+  background-color: white;
+}
 
 /*Footer*/
 footer{
