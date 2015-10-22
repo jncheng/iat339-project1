@@ -688,7 +688,7 @@ img{
   padding-top: 3%;
   padding-bottom:20%;
   width: 100%;
-  height: 50vh;
+  height: 40vh;
 
 
   /* fix background */
@@ -728,7 +728,7 @@ img{
   padding-top: 3%;
   padding-bottom:20%;
   width: 100%;
-  height: 50vh;
+  height: 40vh;
 
 
   /* fix background */
@@ -753,6 +753,8 @@ img{
 .featured-product{
   position: relative;
   top:5em;
+  margin-bottom:10em;
+  z-index: 9;
 }
 
 .featured-product figurecaption{
