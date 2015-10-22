@@ -35,10 +35,10 @@ button, a{
 /* Navigation bar css*/
 
 .logo{
-  width: 3.5em;
+  width: 3em;
   position: relative;
   left:1em;
-  padding-top:1em;
+  padding-top:0.7em;
   z-index: 11;
 }
 
