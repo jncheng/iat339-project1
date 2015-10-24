@@ -32,6 +32,8 @@ button, a{
 
 }
 
+
+
 /* Navigation bar css*/
 
 .logo{
@@ -77,6 +79,10 @@ button, a{
   color: #b5e3d8;
 /*  opacity: 0.4;
 */}
+#nav_active{
+  background-color: #008A89;
+
+}
 
 /* Box that buttons are in, fixed so it floats, removed padding/margin */
 nav {
