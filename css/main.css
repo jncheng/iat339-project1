@@ -905,6 +905,7 @@ img{
 @media(max-width: 48em){
   .blog-post{
     width: 100%;
+    padding: 10%;
   }
   .blog_image, .blog_title{
       width: 100%;
