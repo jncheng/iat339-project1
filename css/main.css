@@ -106,7 +106,6 @@ textarea {
 
 .contact_form{
   position: relative;
-  border: 1px solid #00b1b0;
   margin: 0px auto;
   width: 80%;
   top: 5em;
@@ -215,10 +214,11 @@ width: 10em;
 }
 
 .cart_button{
-    text-align:  center;
+  text-align:  center;
   background-color: #00b1b0;
   color:white;
   padding: 0.3em;
+  margin: 0em;
 }
 
 /*.header_button{
@@ -405,6 +405,94 @@ img{
 .row2:hover {
   background-color: #008A89;
   
+}
+/* ----------------- New contact form css ----------------- */
+
+.cf_left, .cf_right{
+  position: relative;
+  display: inline-block;
+  border: 1px solid #00b1b0;
+  padding: 0px;
+  margin: 0px;
+  left: 0px;
+
+
+}
+
+.cf_left{
+  width: 33%;
+}
+.cf_right{
+  text-align: left;
+  width: 66%;
+  left: -0.5%;
+}
+
+.cf_phone, .cf_email{
+  vertical-align: center;
+  border-bottom: 1px solid #00b1b0;
+}
+.cf_p{
+  position: relative;
+  height: 2em;
+  padding-top: 0.6em;
+  vertical-align: center;
+/*  border: 1px solid black;
+*/  margin: 0px;
+
+}
+.cf_address{
+  height: 14em;
+}
+
+#cf_alignl{
+  text-align: left;
+  padding-left: 5%;
+}
+#cf_bb{
+  border-bottom: 1px solid #00b1b0;
+  height: 1.95em;
+}
+
+#cf_button{
+
+  position: relative;
+  background-color: #00b1b0;
+}
+.cf_message{
+  bottom: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  height: 14em;
+  position: relative;
+  vertical-align: bottom;
+}
+.cf_button_div{
+/*  position: absolute;
+*/  bottom: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+.cf_ta_div{
+/*  padding-bottom: 10em;
+*/}
+
+#cf_whitefont{
+  color: white;
+}
+textarea{
+}
+
+.cf_bottom{
+  position: absolute;
+  left: 33.3%;
+  width: 66%;
+  bottom: 0em;
+}
+#cf_button:hover{
+    background-color: #008A89;
+    color: white;
+
 }
 
 /* ----------------- Product page css ----------------- */
