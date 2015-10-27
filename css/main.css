@@ -196,16 +196,40 @@ textarea {
 .main-button{
 /*  height: 2.7em;
 */  
-  width: 8em;
+/*  position: relative;
+*/  
+/*width: 8em;*/
+width: 10em;
   text-align:  center;
   background-color: #00b1b0;
   color:white;
   outline: none;
-  padding: 0.3em 0em;
+/*  margin: auto;
+*/  padding: 0.3em;
   font-size: 0.9em;
 }
 
-.main-button:hover, .main-button:focus{
+#main_button_center{
+    margin: auto;
+
+}
+
+.cart_button{
+    text-align:  center;
+  background-color: #00b1b0;
+  color:white;
+  padding: 0.3em;
+}
+
+/*.header_button{
+  position: relative;
+  text-align: center;
+  border: 1px solid white;
+      margin: 0 auto;
+
+}*/
+
+.main-button:hover, .main-button:focus, .cart_button:hover, .cart_button:focus{
   background-color: black;
   color:white;
 
@@ -749,6 +773,7 @@ width: 80%;
   height:9em;
   padding-top: 8em;
   padding-bottom:18em;
+  text-align: center;
 }
 
 .home-intro-cover{
