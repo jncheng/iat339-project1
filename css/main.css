@@ -194,11 +194,15 @@ textarea {
 }
 */
 .main-button{
-  width: 10em;
-  height: 2.7em;
+/*  height: 2.7em;
+*/  
+  width: 8em;
+  text-align:  center;
   background-color: #00b1b0;
   color:white;
   outline: none;
+  padding: 0.3em 0em;
+  font-size: 0.9em;
 }
 
 .main-button:hover, .main-button:focus{
@@ -325,10 +329,14 @@ button:hover, button:focus, a:hover, a:focus {
   .about-contact{
     position: relative;
         margin: 0px;
-
+    text-align: center;
     margin-top: 7em;
   }
 
+}
+
+#contact_us_button{
+  
 }
 /*@media(max-width: 50em){
 
@@ -906,8 +914,8 @@ width: 80%;
 }
 
 .new-post .main-button{
-  position: absolute;
-  right:0em;
+/*  position: absolute;
+  right:0em;*/
 
 }
 
