@@ -582,6 +582,17 @@ width: 80%;
   border-bottom: 1px solid #F0F0F0;
 }
 
+
+.submit-review{
+  text-align: left;
+}
+
+.submit-review input, .submit-review textarea{
+  height: 3em;
+  padding: 1em;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
 /*
   Ratings Stars
   (with as little code as possible)
@@ -601,17 +612,18 @@ width: 80%;
   width: 1.2em;
   height: auto;
 }
-/*.rating > span:hover,
-.rating > span:hover ~ span {
+
+.rating-feedback > span:hover,
+.rating-feedback > span:hover ~ span {
   color: transparent;
-}*/
-/*.rating > span:hover:before,
-.rating > span:hover ~ span:before {
+}
+.rating-feedback > span:hover:before,
+.rating-feedback > span:hover ~ span:before {
    content: "\2605";
    position: absolute;
    left: 0; 
    color: #FCEA1C;
-}*/
+}
 
 
 /* -------------- About Page --------------- */
