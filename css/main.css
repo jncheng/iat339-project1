@@ -806,8 +806,10 @@ width: 80%;
 
 .home-blog-title{
   margin: 5% 10%;
-  /*border-bottom: 1px solid #00b1b0;*/
-
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0.5em;
+  border-bottom: 1px solid black;
 }
 
 .align-right{
