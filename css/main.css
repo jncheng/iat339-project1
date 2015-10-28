@@ -534,6 +534,7 @@ textarea{
 /*  width: 60em;
   height: 60em;
 */  
+
   margin: auto;
   top: 5em;
 width: 80%;
@@ -581,6 +582,7 @@ width: 80%;
     padding: 0px;
     padding-left: 1em;
     margin-left: 0px;
+   padding-right: 1em;
   }
 
 }
@@ -697,12 +699,12 @@ width: 80%;
   text-align: left;
   padding-left: 1em;
 
-
-  margin-top: 5%;
+/*  margin-right: 1em;
+*/  margin-top: 5%;
   text-align: left;
   padding: 2% 5%;
   border:1px solid #F0F0F0;
-  background-color: #FAFAFA;
+/*  background-color: #FAFAFA;*/
 }
 
 .product_review h2{
@@ -1116,9 +1118,9 @@ width: 80%;
   padding: 0px;
   display: inline-block;
   vertical-align: top;
-  border:1px solid #F0F0F0;
-  background-color: #FAFAFA;
-
+/*  border:1px solid #F0F0F0;
+*//*  background-color: #FAFAFA;
+*/
 
 /*  padding-bottom: 10em;
 */}
