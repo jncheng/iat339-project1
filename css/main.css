@@ -1239,3 +1239,16 @@ footer{
   width: 66%;
 }
 
+.title_element{
+  position: relative;
+  top: 4em;
+}
+
+.text_elements{
+  position: relative;
+}
+
+.sg_footer{
+  margin-top: 30em;
+}
+
