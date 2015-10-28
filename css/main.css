@@ -198,18 +198,18 @@ textarea {
 }
 */
 .main-button{
-/*  height: 2.7em;
-*/  
-/*  position: relative;
-*/  
-/*width: 8em;*/
-width: 10em;
+
+  width: 10em;
   text-align:  center;
   background-color: #00b1b0;
   color:white;
   outline: none;
+<<<<<<< HEAD
 /*  margin: auto;
 */  padding: 0.9em;
+=======
+  padding: 0.7em;
+>>>>>>> origin/master
   font-size: 0.9em;
 }
 
@@ -235,7 +235,7 @@ width: 10em;
 }*/
 
 .main-button:hover, .main-button:focus, .cart_button:hover, .cart_button:focus{
-  background-color: black;
+  background-color: #008A89;
   color:white;
 
 } 
@@ -460,10 +460,10 @@ img{
 }
 
 #cf_button{
-
   position: relative;
   background-color: #00b1b0;
   color: white;
+
 }
 .cf_message{
   bottom: 0px;
@@ -474,14 +474,10 @@ img{
   vertical-align: bottom;
 }
 .cf_button_div{
-/*  position: absolute;
-*/  bottom: 0px;
+  bottom: 0px;
   padding-bottom: 0px;
   margin-bottom: 0px;
 }
-.cf_ta_div{
-/*  padding-bottom: 10em;
-*/}
 
 #cf_whitefont{
   color: white;
@@ -1081,11 +1077,6 @@ width: 80%;
   padding: 4% 0;
 }
 
-.new-post .main-button{
-/*  position: absolute;
-  right:0em;*/
-
-}
 
 @media(max-width: 48em){
   .blog-post{
