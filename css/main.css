@@ -88,6 +88,11 @@ textarea {
 }
 
 
+#index_section{
+/*  margin-top: 4em;
+*/}
+
+
 /* --------------------- Contact Page --------------------- */
 .contact-cover{
   position: relative;
@@ -204,7 +209,7 @@ width: 10em;
   color:white;
   outline: none;
 /*  margin: auto;
-*/  padding: 0.3em;
+*/  padding: 0.9em;
   font-size: 0.9em;
 }
 
@@ -458,6 +463,7 @@ img{
 
   position: relative;
   background-color: #00b1b0;
+  color: white;
 }
 .cf_message{
   bottom: 0px;
@@ -935,8 +941,8 @@ width: 80%;
 
 .featured-product{
   position: relative;
-  top:5em;
-  margin-bottom:10em;
+  top:2em;
+  margin-bottom:7em;
   z-index: 9;
 }
 
@@ -948,7 +954,7 @@ width: 80%;
 }
 
 .home-blog{
-  padding-bottom:10%;
+  padding-bottom:0em;
 }
 
 .home-blog-title{
@@ -957,6 +963,7 @@ width: 80%;
   margin-right: 0;
   padding-left: 0.5em;
   border-bottom: 1px solid black;
+  padding-top: 0em;
 }
 
 .align-right{
@@ -1013,10 +1020,10 @@ width: 80%;
 .blog-post{
   text-align: left;
   position: relative;
-  top:5em;
+  top:2em;
   width: 66%;
   margin: 0px auto;
-  padding: 0px;
+  padding-bottom: 4em;
 
   }
 
@@ -1230,3 +1237,18 @@ footer{
   width: 30em;
   height: 20em;
 }
+
+/*--------------- Style Guide ---------------*/
+
+#body_sg{
+  text-align: center;
+
+}
+
+.heading_container{
+  position: relative;
+  margin: auto;
+  top: 5em;
+  width: 66%;
+}
+

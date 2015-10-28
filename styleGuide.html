@@ -5,27 +5,27 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>P01 - Style Guide Template</title>
+    <title>Style Guide</title>
 
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Karla">
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Inconsolata">
     <link href="css/main.css" rel="stylesheet">
+    <link href="css/nav_style.css" rel="stylesheet">
     <link href="css/grid.css" rel="stylesheet">
-
 
   </head>
 
-  <body>
+  <body id="body_sg">
     <nav class="main-nav">
-        <ul class="nav">
-          <li><a href="User-flows.html">User-flows</a></li>
-          <li><a href="Style_guide.html">Style Guide</a></li>
-          <li><a href="Citations.html">Citations</a></li>
-        </ul>
-     </nav>
+      <div class="nav_home"><a href="index.html" id="nav_button"><img class="logo" src="img/logo.png"></a></div>
+      <div class="nav" id="nav_filler"></div>      
+      <a href="product.html" id="nav_button"><div class="nav"><p>Product</p></div></a>
+      <a href="blog.html" id="nav_button"><div class="nav"><p>Blog</p></div></a>
+      <a href="contact_info.html" id="nav_button"><div class="nav"><p>Contact</p></div></a>
+      <a href="about.html" id="nav_button"><div class="nav" id="nav_active"><p>About</p></div></a>
+    </nav>
 
-    <div class="heading container">
+    <div class="heading_container">
       <h1>P01 - Style Guide Template</h1>
       <p>Created by Eva Li and Josh Cheng -  Student NO.301162543 and NO.301200145 - IAT 339 Fall 2015 </p>
 
@@ -45,7 +45,6 @@
           </li>
         </ul>
       </div>
-
       <h3>Brief</h3>
       <h5>SPACEWORK</h5>
       <p>The company is an interior design company specializing in small and medium workplace and studio. It focuses on creating a nurturing working environment that maximize productivity and creativity.</p>
@@ -58,13 +57,8 @@
       <p>The testimonial from previous clients.</p>
       <p>Unique and creative interior design approach.</p>
 
-    
-    </div>
 
-
-
-    <!-- INTERACTIVE ELEMENTS SECTION // -->
-    <section id="interactive_elements">
+      <section id="interactive_elements">
       <div class="interactive_elements container">
         <h1>Interactive Elements</h1>
       <!-- Default Button styling section -->
@@ -367,10 +361,16 @@
         </section>
       </div>
     </section>
-    <!-- // COMBINED ELEMENTS SECTION -->
+    
+    </div>
 
 
 
+
+    <footer>
+      <h3>IAT 399 - Fall2 2015</h3>
+      <p>Josh Cheng - 301200145 // Eva Li - 301162543</p>
+    </footer> 
 
   </body>
 </html>
