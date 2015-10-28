@@ -451,7 +451,7 @@ img{
 }
 #cf_bb{
   border-bottom: 1px solid #00b1b0;
-  height: 1.95em;
+  height: 1.9em;
 }
 
 #cf_button{
@@ -494,6 +494,37 @@ textarea{
     color: white;
 
 }
+
+@media(max-width: 58em){
+  .cf_right{
+    width: 65%;
+  }
+  .cf_bottom{
+    left: 33.7%;
+    width: 65.3%;
+  } 
+}
+
+@media(max-width: 43em){
+  .cf_right, .cf_left{
+    width: 100%;
+    left: 0px;
+    text-align: left;
+  }
+  .cf_left{
+    margin-bottom:1em; 
+  }
+  .cf_p{
+    text-align: left;
+    padding-left: 5%;
+  }
+  .cf_bottom{
+    width: 100.2%;
+    left: 0px;
+  }
+
+}
+
 
 /* ----------------- Product page css ----------------- */
 .product_page{
