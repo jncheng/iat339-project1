@@ -210,9 +210,8 @@ textarea {
   font-size: 0.9em;
 }
 
-#main_button_center{
+.main_button_center{
     margin: auto;
-
 }
 
 .cart_button{
@@ -559,18 +558,16 @@ width: 80%;
 }
 
 .product_list_image{
-  /*padding: 1em;*/
   position: relative;
   display: block;
   padding: 0px;
   margin: 0px;
-
-/*  overflow:hidden;
-  text-align: center;
-*/  /*width: 100%;*/
-
 }
 
+.list_image:hover{
+   opacity: 0.9;
+  filter: alpha(opacity=90); /* For IE8 and earlier */
+}
 
 @media(max-width: 45em){
   .product1, .product2, .product3{

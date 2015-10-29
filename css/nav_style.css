@@ -24,10 +24,10 @@ button, a{
   top: 0px;
 }
 
-#nav_button{
+.nav_button{
   color: #b5e3d8
 }
-#nav_button:hover{
+.nav_button:hover{
   color: #b5e3d8;
 
 }
