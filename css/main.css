@@ -430,14 +430,12 @@ img{
 }
 
 .cf_phone, .cf_email{
-  vertical-align: center;
   border-bottom: 1px solid #00b1b0;
 }
 .cf_p{
   position: relative;
   height: 2em;
   padding-top: 0.6em;
-  vertical-align: center;
 /*  border: 1px solid black;
 */  margin: 0px;
 
