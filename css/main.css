@@ -444,7 +444,7 @@ img{
   height: 14em;
 }
 
-#cf_alignl{
+.cf_alignl{
   text-align: left;
   padding-left: 5%;
 }
